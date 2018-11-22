@@ -19,6 +19,9 @@ h2 {
 }
 p {
   font-family: sans-serif;
+  display: normal
+  font-style: normal;
+  background-color: inherit;
 }
 ul {
   line-height: 40px;
