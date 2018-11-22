@@ -5,7 +5,7 @@ title {
   text-align: center;
 }
 h1 {
-  color: #000080;
+  color: #E27D60;
   background-color:#1C6EA4;
   display: block;
   font-style: normal;
@@ -13,7 +13,7 @@ h1 {
   border: 2px solid #1C6EA4;
 }
 h2 {
-  color: #000085;
+  color: #C36D9E;
   font-style: italic;
   text-align: left;
 }
@@ -22,7 +22,8 @@ body {
 }
 p {
   font-family: sans-serif;
-  display: normal
+  color: silver;
+  display: normal;
   font-style: normal;
   background-color: inherit;
 }
