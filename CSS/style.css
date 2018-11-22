@@ -36,5 +36,9 @@ ul {
 }
 .float-right{
   float:right;
-  margin-left: 20px;
-  }
+  margin-left: 40px;
+}
+.float-left{
+  float:left;
+  margin-right: 40px;
+}
