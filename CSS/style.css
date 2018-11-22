@@ -34,7 +34,7 @@ p {
 ul {
   line-height: 40px;
 }
-.img-Adino{
-  width: 600px;
-  height: 300px
-}
+.float-right{
+  float:right;
+  margin-left: 20px;
+  }
