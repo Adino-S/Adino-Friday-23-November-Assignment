@@ -18,5 +18,6 @@
 #Eastern Africa Grain Council
 {Adino worked with the Council to tell their story better. What an exciting experience, and trip! Imagine having to package what you have done in the past 10 years, into one small publication, well call Adino did it! Meeting Farmers from Eastern Africa, she interviewed them and they shared their stories about how selling green grams made them build concrete homes, or the multi-millionaires who were clever enough to take credit of up to $35,000 to buy and sell maize at 100% profit after paying interest and loans! You can read it all on the link below, beautiful!}
 ![](http://eagc.org/wp-content/uploads/2018/01/EAGC_@10_Milestone.pdf)
-#USAID: Telling stories
-{Adino also wrote stories}
+#USAID: Building Institutions & Telling stories
+{Adino spent years working with small and medium size institutions to build their systems. Basically it meant working with these to assess their capacities, and instituonalize financial, HR, procurement and marketing processes. She also helped them tell the stories of the successful institutions}
+![](https://www.usaid.gov/documents/1860/agmark-attributes-its-project-funding-increase-aiim-grant)
