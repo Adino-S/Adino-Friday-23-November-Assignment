@@ -1,9 +1,9 @@
 # **ADINO'S MORINGA CODING PROFILE PAGE**
-### This is a page that tells a story about Adino's short journey of coding. Like any other profile, it emphasizes all the good and hides the ugly. It's meant to make you love Adino's work, and wish you were as Fabulous as she is in coding...so hold your horses, you're up for a trip...and not an ACID one.
+### This is a page that tells a story about Adino's short journey of coding. Like any other profile, it emphasizes all the good and hides the ugly. It's meant to make you love Adino's work, and wish you were as Fabulous as she is in coding...so hold onto your horses, you're up for a trip...and not an ACID one.
 ### CREATED BY **ADINO OLAGO**
 ![Adino Olago](https://github.com/Adino-S/Adino-Friday-23-November-Assignment/blob/master/Images/AdinoProfilePic.png)
 ## Why you should pick ADINO
-In just one week, and I've learnt how to code!
+In just one week, I've learnt how to code!
 
 ## Qualifications
 * Kick-ass strategist
