@@ -6,7 +6,7 @@ title {
   font-style: bold;
   text-align: center;
 }
-.intro {
+#intro {
   font-style: normal;
   font-size: 25px;
   font-family: monospace;
@@ -29,6 +29,13 @@ h2 {
 }
 body {
   background-color: #FFFFFF;
+}
+div{
+  width: 60%;
+  Height: 40%;
+  margin: 100px auto;
+  Padding: 30px;
+  background-color: #6E1208;
 }
 p {
   font-family: sans-serif;
