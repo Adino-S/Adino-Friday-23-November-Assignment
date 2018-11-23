@@ -1,0 +1,306 @@
+Last login: Fri Nov 23 08:45:45 on ttys000
+SharonOagosiMac:~ sharonolago$ cd Documents
+SharonOagosiMac:Documents sharonolago$ cd Moringa-school-projects
+SharonOagosiMac:Moringa-school-projects sharonolago$ ls
+Moringa-Projects	branching-test-project	hello-world.html
+Silence-Private-Island	friday-assignments	my-first-website
+SharonOagosiMac:Moringa-school-projects sharonolago$ cd friday-assignments
+SharonOagosiMac:friday-assignments sharonolago$ atom .
+SharonOagosiMac:friday-assignments sharonolago$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   CSS/style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+SharonOagosiMac:friday-assignments sharonolago$ git add CSS/styles.css
+fatal: pathspec 'CSS/styles.css' did not match any files
+SharonOagosiMac:friday-assignments sharonolago$ git commit -m "Added blue border to title and Silver font colour"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   CSS/style.css
+
+no changes added to commit
+SharonOagosiMac:friday-assignments sharonolago$ git add CSS/style.css
+SharonOagosiMac:friday-assignments sharonolago$ git commit -m "Added blue border to title and Silver font colour"
+[master c5c89ec] Added blue border to title and Silver font colour
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+SharonOagosiMac:friday-assignments sharonolago$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+SharonOagosiMac:friday-assignments sharonolago$ git add index.html
+SharonOagosiMac:friday-assignments sharonolago$ git commit -m "added border across the whole page"
+[master 911cf28] added border across the whole page
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+SharonOagosiMac:friday-assignments sharonolago$ git branch
+  gh-pages
+* master
+  strong_theme
+SharonOagosiMac:friday-assignments sharonolago$ git checkout strong_theme
+Switched to branch 'strong_theme'
+SharonOagosiMac:friday-assignments sharonolago$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+SharonOagosiMac:friday-assignments sharonolago$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   CSS/style.css
+	modified:   README.md
+	modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Images/Website sample.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+SharonOagosiMac:friday-assignments sharonolago$ git add . CSS/styles.css README.md index.html
+fatal: pathspec 'CSS/styles.css' did not match any files
+SharonOagosiMac:friday-assignments sharonolago$ git add Images/Website sample.png
+fatal: pathspec 'Images/Website' did not match any files
+SharonOagosiMac:friday-assignments sharonolago$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   CSS/style.css
+	modified:   README.md
+	modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Images/Website_sample.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+SharonOagosiMac:friday-assignments sharonolago$ git add Images/Website_sample.png
+SharonOagosiMac:friday-assignments sharonolago$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Images/Website_sample.png
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   CSS/style.css
+	modified:   README.md
+	modified:   index.html
+
+SharonOagosiMac:friday-assignments sharonolago$ git commit -m "Added unordered list on README file and pictures"
+[master ab2aaf8] Added unordered list on README file and pictures
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Images/Website_sample.png
+SharonOagosiMac:friday-assignments sharonolago$ git branch
+  gh-pages
+* master
+  strong_theme
+SharonOagosiMac:friday-assignments sharonolago$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   CSS/style.css
+	modified:   README.md
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+SharonOagosiMac:friday-assignments sharonolago$ git add CSS/styles.css
+fatal: pathspec 'CSS/styles.css' did not match any files
+SharonOagosiMac:friday-assignments sharonolago$ git add . CSS/style.css README.md index.html
+SharonOagosiMac:friday-assignments sharonolago$ git commit -m "edited Readme and added links to moringa project work"
+[master f867208] edited Readme and added links to moringa project work
+ 3 files changed, 29 insertions(+), 27 deletions(-)
+ rewrite README.md (86%)
+SharonOagosiMac:friday-assignments sharonolago$ git push
+Counting objects: 28, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (28/28), 614.61 KiB | 16.61 MiB/s, done.
+Total 28 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas: 100% (12/12), completed with 4 local objects.
+To https://github.com/Adino-S/Friday-Assignments.git
+   90cac1c..f867208  master -> master
+SharonOagosiMac:friday-assignments sharonolago$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+SharonOagosiMac:friday-assignments sharonolago$ git add README.md
+SharonOagosiMac:friday-assignments sharonolago$ git commit -m "Added correct markdown for pics on readme"
+[master 2c97233] Added correct markdown for pics on readme
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+SharonOagosiMac:friday-assignments sharonolago$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 405 bytes | 405.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Adino-S/Friday-Assignments.git
+   f867208..2c97233  master -> master
+SharonOagosiMac:friday-assignments sharonolago$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   CSS/style.css
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+SharonOagosiMac:friday-assignments sharonolago$ git add . CSS/style.css index.html
+SharonOagosiMac:friday-assignments sharonolago$ git commit -m "Added div to hightlight the profile track record"
+[master 25aed01] Added div to hightlight the profile track record
+ 2 files changed, 15 insertions(+), 7 deletions(-)
+SharonOagosiMac:friday-assignments sharonolago$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 603 bytes | 301.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Adino-S/Friday-Assignments.git
+   2c97233..25aed01  master -> master
+SharonOagosiMac:friday-assignments sharonolago$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   CSS/style.css
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+SharonOagosiMac:friday-assignments sharonolago$ git add CSS/style.css index.html
+SharonOagosiMac:friday-assignments sharonolago$ git commit -m "Added background colour to div"
+[master 49054d6] Added background colour to div
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+SharonOagosiMac:friday-assignments sharonolago$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 480 bytes | 480.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Adino-S/Friday-Assignments.git
+   25aed01..49054d6  master -> master
+SharonOagosiMac:friday-assignments sharonolago$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   CSS/style.css
+	modified:   README.md
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+SharonOagosiMac:friday-assignments sharonolago$ git add . CSS/style.css README.md index.html
+SharonOagosiMac:friday-assignments sharonolago$ git commit -m "adding links to the README file"
+[master b1fe02d] adding links to the README file
+ 3 files changed, 12 insertions(+), 11 deletions(-)
+SharonOagosiMac:friday-assignments sharonolago$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 674 bytes | 674.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Adino-S/Adino-Friday-23-November-Assignment.git
+To https://github.com/Adino-S/Friday-Assignments.git
+   49054d6..b1fe02d  master -> master
+SharonOagosiMac:friday-assignments sharonolago$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Images/AdinoProfilePic.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+SharonOagosiMac:friday-assignments sharonolago$ git add Images/AdinoProfilePic.png
+SharonOagosiMac:friday-assignments sharonolago$ git add README.md
+SharonOagosiMac:friday-assignments sharonolago$ git commit
+hint: Waiting for your editor to close the file... 
+age for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#       new file:   Images/AdinoProfilePic.png
+#       modified:   README.m#
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
