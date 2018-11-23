@@ -30,10 +30,10 @@ h2 {
 body {
   background-color: #FFFFFF;
 }
-div{
+div {
   width: 50%;
-  Height: 40%;
-  margin: 100px auto;
+  Height: 50%;
+  margin: 100 auto;
   Padding: 30px;
   background-color: rgba(189,70,26,0.37);
 }
