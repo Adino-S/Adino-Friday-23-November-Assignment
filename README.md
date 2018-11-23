@@ -22,5 +22,4 @@ My very first website had the cutest elephant! It was running it's trunk in the 
 [My first website](https://github.com/Adino-S/my-first-website/blob/master/index.html)
 
 #Lishe Living https://lisheliving.com:
-Conceptualised and work with a multi-discplinary team of doctors, nutritionists, biochemists, software engineers, UI designers and graphic designers to create an application that would empower people to live a healthy, engaged, productive and happy-filled life.
-![Why are you running?](https://github.com/Adino-S/Friday-Assignments/blob/master/Images/Akili%20ni%20Mali%20-%20Copy.jpg)
+Conceptualised and work with a multi-disciplinary team of doctors, nutritionists, biochemists, software engineers, UI designers and graphic designers to create an application that would empower people to live a healthy, engaged, productive and happy-filled life.
