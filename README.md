@@ -21,5 +21,5 @@ Just finished working on this project. Don't forget to see how well the profile 
 My very first website had the cutest elephant! It was running it's trunk in the sand in the ocean. Check it out!
 [My first website](https://github.com/Adino-S/my-first-website/blob/master/index.html)
 
-#Lishe Living https://lisheliving.com:
+[Lishe Living](https://lisheliving.com)
 Conceptualised and work with a multi-disciplinary team of doctors, nutritionists, biochemists, software engineers, UI designers and graphic designers to create an application that would empower people to live a healthy, engaged, productive and happy-filled life.
